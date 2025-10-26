@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Nunito", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@theme {
+  --font-family-sans: "Nunito", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-cerulean-50: #cbe7f3;
+  --color-cerulean-100: #98d0e8;
+  --color-cerulean-200: #64b8dc;
+  --color-cerulean-300: #31a0d0;
+  --color-cerulean-400: #247ba0;
+  --color-cerulean-500: #247ba0;
+  --color-cerulean-600: #1d617e;
+  --color-cerulean-700: #16495f;
+  --color-cerulean-800: #0e313f;
+  --color-cerulean-900: #071820;
+
+  --color-verdigris-50: #e2f3f0;
+  --color-verdigris-100: #c6e7e1;
+  --color-verdigris-200: #a9dad2;
+  --color-verdigris-300: #8dcec3;
+  --color-verdigris-400: #70c1b3;
+  --color-verdigris-500: #70c1b3;
+  --color-verdigris-600: #49ab9b;
+  --color-verdigris-700: #378174;
+  --color-verdigris-800: #25564e;
+  --color-verdigris-900: #122b27;
+
+  --color-celadon-50: #f0f8f2;
+  --color-celadon-100: #e0f1e6;
+  --color-celadon-200: #d1e9d9;
+  --color-celadon-300: #c2e2cc;
+  --color-celadon-400: #b2dbbf;
+  --color-celadon-500: #b2dbbf;
+  --color-celadon-600: #7dc292;
+  --color-celadon-700: #4ca268;
+  --color-celadon-800: #336c45;
+  --color-celadon-900: #193623;
+
+  --color-cream-50: #fdfff2;
+  --color-cream-100: #faffe4;
+  --color-cream-200: #f8ffd7;
+  --color-cream-300: #f5ffca;
+  --color-cream-400: #f3ffbd;
+  --color-cream-500: #f3ffbd;
+  --color-cream-600: #e3ff64;
+  --color-cream-700: #d2ff0b;
+  --color-cream-800: #91b100;
+  --color-cream-900: #485900;
+
+  --color-folly-50: #ffd0dd;
+  --color-folly-100: #ffa1ba;
+  --color-folly-200: #ff7298;
+  --color-folly-300: #ff4375;
+  --color-folly-400: #ff1654;
+  --color-folly-500: #ff1654;
+  --color-folly-600: #dc003b;
+  --color-folly-700: #a5002c;
+  --color-folly-800: #6e001d;
+  --color-folly-900: #37000f;
+}
