@@ -31,7 +31,7 @@ const Select = ({
         required={required}
         className={`
           w-full px-4 py-2 border rounded-lg 
-          focus:ring-2 focus:ring-primary-500 focus:border-transparent 
+          focus:ring-2 focus:ring-cerulean-400 focus:border-transparent 
           outline-none transition-all
           disabled:bg-gray-100 disabled:cursor-not-allowed
           ${error ? "border-red-500" : "border-gray-300"}

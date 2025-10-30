@@ -3,6 +3,7 @@ import React from "react";
 const Card = ({
   children,
   title,
+  icon,
   className = "",
   padding = true,
   hover = false,
@@ -17,7 +18,10 @@ const Card = ({
       `}
     >
       {title && (
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">{title}</h3>
+        <div className="flex items-center gap-2 mb-4">
+          {icon && <span className="text-cerulean-500 text-xl">{icon}</span>}
+          <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
+        </div>
       )}
       {children}
     </div>

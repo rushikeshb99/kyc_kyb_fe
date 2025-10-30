@@ -2,18 +2,12 @@ import api from "./api";
 
 const documentService = {
   // Upload document
-  uploadDocument: async (applicationId, documentType, file) => {
+  uploadDocument: async (applicationId, formData) => {
     try {
-      const formData = new FormData();
-      formData.append("application_id", applicationId);
-      formData.append("document_type", documentType);
-      formData.append("file", file);
-
-      const response = await api.post("/documents/upload", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      const response = await api.post(
+        `/documents/upload/${applicationId}`,
+        formData
+      );
       return response.data;
     } catch (error) {
       throw error.response?.data || { error: "Failed to upload document" };

@@ -15,7 +15,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-cream-50 to-white">
       {/* Navbar */}
       <Navbar toggleSidebar={toggleSidebar} />
 
